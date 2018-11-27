@@ -1,0 +1,17 @@
+section {
+    color: white;   
+    height: 100vh;
+}
+
+section:nth-child(2n) {
+    background-color: darkgray;
+}
+
+section:nth-child(2n+1) {
+    background-color: black;
+}
+
+.carousel-indicators li {
+    width: 5vw;
+    height: 1vh;
+}
