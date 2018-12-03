@@ -1,11 +1,13 @@
 body {
     background-color: #474747;
-}
-
-.wrapperXX {
+    
     height: 100vh;
     display: flex;
     align-items: center;
+}
+
+.wrapper {
+    background-color: pink;
 }
     
 .section1 {
@@ -20,17 +22,18 @@ body {
     background-color: purple;
 }
 
+.content1, .content2, .content3 {
+    background-color: lightgreen;
+    /*width: 100%;*/
+}
+
+/* layout made with floating sections */
 .section1, .section2, .section3 {
     float: left;
 }
 
 .section3 {
     clear: left;
-}
-
-.content1, .content2 {
-    background-color: lightgreen;
-    width: 100%;
 }
 
 /* sizes - default */
@@ -41,6 +44,14 @@ body {
 .section2 {
     padding-left: 96px;
     width: 396px;
+    height: 100%;
+}
+
+.content2 {
+    position: absolute;               /* 2 */
+   top: 50%;                         /* 3 */
+   transform: translate(0, -50%);   /* 4 */
+   width: 300px;
 }
 
 /* sizes - small screen */
@@ -48,9 +59,17 @@ body {
     .section1, .section2, .section3 {
         padding: 0 16px 0 16px;
         width: 100%;
+        
+    }
+    .content2 {
+        position: relative;
+        top: 0;
+        transform: translate(0,0);
+        width: 100%;
     }
 }
 
+/* titles */
 h1 {
     font-size: 24px;
 }
