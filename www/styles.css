@@ -20,8 +20,8 @@ body {
     width: 332px;
 }
 .section2 {
-    padding-left: 72px;
-    width: 372px;
+    padding-left: 96px;
+    width: 396px;
     height: 100%;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 /* sizes - small screen */
-@media (max-width: 728px) {
+@media (max-width: 744px) {
     .section1, .section2, .section3 {
         padding: 0 16px 0 16px;
         width: 100%;
@@ -108,7 +108,7 @@ p {
     margin-top: 24px;
 }
 
-@media (max-width: 728px) {
+@media (max-width: 744px) {
     .cvtext {
         margin-bottom: 32px;
     }
