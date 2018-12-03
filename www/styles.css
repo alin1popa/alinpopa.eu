@@ -2,15 +2,15 @@ body {
     background-color: #474747;
 }
 
-.leftside {
+.first {
     background-color: red;
 }
 
-.rightside {
+.second {
     background-color: lightblue;
 }
 
-.leftside, .rightside {
+.first, .second {
     position: relative;
     float: left;
     min-width: 332px;
@@ -25,12 +25,12 @@ body {
 }
 
 /* sizes - default */
-.leftside {
+.first {
     padding: 0 16px 0 16px;
     width: 332px;
     height: 100vh;
 }
-.rightside {
+.second {
     padding-left: 96px;
     width: 396px;
     height: 100vh;
@@ -38,7 +38,7 @@ body {
 
 /* sizes - small screen */
 @media (max-width: 728px) {
-    .leftside, .rightside {
+    .first, .second {
         padding: 0 16px 0 16px;
         width: 100%;
         height: auto;
