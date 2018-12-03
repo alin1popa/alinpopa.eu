@@ -48,9 +48,9 @@ body {
 }
 
 .content2 {
-    position: absolute;               /* 2 */
-   top: 50%;                         /* 3 */
-   transform: translate(0, -50%);   /* 4 */
+    position: absolute;
+   top: 50%;
+   transform: translate(0, -50%);
    width: 300px;
 }
 
@@ -69,11 +69,55 @@ body {
     }
 }
 
-/* titles */
+/* titles and texts */
+* {
+    color: white;
+}
+
+h1, h5 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+a, p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
 h1 {
     font-size: 24px;
 }
 
+h5, p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.content2 {
+    text-align: left;
+}
+
+
+/* spacings */
 .profilepic {
-    margin: 24px auto 0 auto;
+    margin: 24px auto 24px auto;
+}
+
+.socialbar {
+    background-color: black;
+    height: 24px;
+    margin-top: 8px;
+}
+
+p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.cvtext {
+    margin-top: 24px;
+    margin-bottom: 32px;
 }
