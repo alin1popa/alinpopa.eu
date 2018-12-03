@@ -24,7 +24,6 @@ body {
 
 .content1, .content2, .content3 {
     background-color: lightgreen;
-    /*width: 100%;*/
 }
 
 /* layout made with floating sections */
@@ -49,9 +48,11 @@ body {
 
 .content2 {
     position: absolute;
-   top: 50%;
-   transform: translate(0, -50%);
-   width: 300px;
+    top: 50%;
+    transform: translate(0, -50%);
+   
+    width: 25%;
+    min-width: 300px;
 }
 
 /* sizes - small screen */
@@ -126,7 +127,7 @@ p {
     margin-bottom: 32px;
 }
 
-i {
+.social {
     margin-left: 24px;
 }
 
