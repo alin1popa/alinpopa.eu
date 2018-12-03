@@ -45,4 +45,10 @@ body {
     }
 }
 
+h1 {
+    font-size: 24px;
+}
 
+.profilepic {
+    margin: 24px auto 0 auto;
+}
