@@ -2,46 +2,52 @@ body {
     background-color: #474747;
 }
 
-.first {
-    background-color: red;
-}
-
-.second {
-    background-color: lightblue;
-}
-
-.first, .second {
-    position: relative;
-    float: left;
-    min-width: 332px;
- 
+.wrapperXX {
+    height: 100vh;
     display: flex;
     align-items: center;
 }
+    
+.section1 {
+    background-color: red;
+}
 
-.leftcontent, .rightcontent {
+.section2 {
+    background-color: lightblue;
+}
+
+.section3 {
+    background-color: purple;
+}
+
+.section1, .section2, .section3 {
+    float: left;
+}
+
+.section3 {
+    clear: left;
+}
+
+.content1, .content2 {
     background-color: lightgreen;
     width: 100%;
 }
 
 /* sizes - default */
-.first {
+.section1, .section3 {
     padding: 0 16px 0 16px;
     width: 332px;
-    height: 100vh;
 }
-.second {
+.section2 {
     padding-left: 96px;
     width: 396px;
-    height: 100vh;
 }
 
 /* sizes - small screen */
 @media (max-width: 728px) {
-    .first, .second {
+    .section1, .section2, .section3 {
         padding: 0 16px 0 16px;
         width: 100%;
-        height: auto;
     }
 }
 
