@@ -133,3 +133,8 @@ i {
 .nomargin {
     margin-left: 0;
 }
+
+.profilepic {
+    border-radius: 50%;
+    border: 2px solid white;
+}
