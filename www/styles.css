@@ -2,7 +2,13 @@ body {
     background-color: #474747;
     height: 100vh;
     display: flex;
+    align-items: flex-start;
+}
+
+.outer {
+    display: flex;
     align-items: center;
+    min-height: 100%;
 }
 
 /* layout made with floating sections */
@@ -36,6 +42,9 @@ body {
 
 /* sizes - small screen */
 @media (max-width: 744px) {
+    .outer {
+        padding-top: 16px;
+    }
     .section1, .section2, .section3 {
         padding: 0 16px 0 16px;
         width: 100%;
