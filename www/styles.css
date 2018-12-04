@@ -9,6 +9,8 @@ body {
     display: flex;
     align-items: center;
     min-height: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 /* layout made with floating sections */
@@ -42,9 +44,6 @@ body {
 
 /* sizes - small screen */
 @media (max-width: 744px) {
-    .outer {
-        padding-top: 16px;
-    }
     .section1, .section2, .section3 {
         padding: 0 16px 0 16px;
         width: 100%;
