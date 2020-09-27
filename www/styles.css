@@ -35,7 +35,7 @@ body {
 
 .content2 {
     position: absolute;
-    top: 50%;
+    top: calc(50% + 20px);
     transform: translate(0, -50%);
    
     width: 30%;
